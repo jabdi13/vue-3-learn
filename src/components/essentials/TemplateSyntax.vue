@@ -4,6 +4,10 @@
   const rawHtml = '<span style="color: red">This should be red.</span>'
   const id = "newId"
   const isButtonDisabled = true
+  const objectOfAttrs = {
+      id: 'container',
+      class: 'wrapper'
+    }
 </script>
 
 <template>
@@ -19,4 +23,6 @@
   <div :id="'idInterpolated'">Shorthand binding</div>
   <!-- Boolean Attributes -->
   <button :disabled="isButtonDisabled">Button</button>
+  <!-- Dynamically Binding Multiple Attributes -->
+  <div v-bind="objectOfAttrs">objectOfAttrs</div>
 </template>
