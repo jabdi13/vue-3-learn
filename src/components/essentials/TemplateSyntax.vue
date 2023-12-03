@@ -3,6 +3,7 @@
   const msg = "Hello vue"
   const rawHtml = '<span style="color: red">This should be red.</span>'
   const id = "newId"
+  const isButtonDisabled = true
 </script>
 
 <template>
@@ -16,4 +17,6 @@
   <div v-bind:id="id">New ID</div>
   <!-- Shorthand binding -->
   <div :id="'idInterpolated'">Shorthand binding</div>
+  <!-- Boolean Attributes -->
+  <button :disabled="isButtonDisabled">Button</button>
 </template>
