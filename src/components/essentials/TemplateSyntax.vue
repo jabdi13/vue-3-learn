@@ -1,8 +1,8 @@
 <script setup>
-import { ref } from 'vue';
 
-  const msg = ref("Hello vue")
+  const msg = "Hello vue"
   const rawHtml = '<span style="color: red">This should be red.</span>'
+  const id = "newId"
 </script>
 
 <template>
@@ -11,4 +11,7 @@ import { ref } from 'vue';
   <!-- Raw HTML -->
   <p>Using text interpolation: {{ rawHtml }}</p>
   <p>Using v-html directive: <span v-html="rawHtml"></span></p>
+  
+  <!-- Attribute Bindings -->
+  <div v-bind:id="id">New ID</div>
 </template>
