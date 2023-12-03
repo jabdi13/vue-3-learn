@@ -7,7 +7,8 @@
   const objectOfAttrs = {
       id: 'container',
       class: 'wrapper'
-    }
+  }
+  const doSomething = () => console.log("Click")
 </script>
 
 <template>
@@ -25,4 +26,9 @@
   <button :disabled="isButtonDisabled">Button</button>
   <!-- Dynamically Binding Multiple Attributes -->
   <div v-bind="objectOfAttrs">objectOfAttrs</div>
+
+  <!-- Directive v-on -->
+  <a v-on:click="doSomething"> ... </a>
+  <!-- shorthand -->
+  <a @click="doSomething"> ... </a>
 </template>
