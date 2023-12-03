@@ -14,4 +14,6 @@
   
   <!-- Attribute Bindings -->
   <div v-bind:id="id">New ID</div>
+  <!-- Shorthand binding -->
+  <div :id="'idInterpolated'">Shorthand binding</div>
 </template>
