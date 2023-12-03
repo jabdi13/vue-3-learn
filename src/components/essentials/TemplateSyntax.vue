@@ -12,6 +12,7 @@
   const attributeName = "href"
   const url = "https://vuejs.org/guide/essentials/template-syntax.html"
   const eventName = "click"
+  const onSubmit = () => console.log("Click")
 </script>
 
 <template>
@@ -48,4 +49,7 @@
 
   <!-- shorthand -->
   <a @[eventName]="doSomething"> ... </a>
+  
+  <!-- Modifiers -->
+  <form @submit.prevent="onSubmit">...</form>
 </template>
