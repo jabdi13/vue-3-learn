@@ -9,6 +9,9 @@
       class: 'wrapper'
   }
   const doSomething = () => console.log("Click")
+  const attributeName = "href"
+  const url = "https://vuejs.org/guide/essentials/template-syntax.html"
+  const eventName = "click"
 </script>
 
 <template>
@@ -31,4 +34,18 @@
   <a v-on:click="doSomething"> ... </a>
   <!-- shorthand -->
   <a @click="doSomething"> ... </a>
+
+  <!-- Dynamic Arguments -->
+  <!--
+  Note that there are some constraints to the argument expression,
+  as explained in the "Dynamic Argument Value Constraints" and "Dynamic Argument Syntax Constraints" sections below.
+  -->
+  <a v-bind:[attributeName]="url"> ... </a>
+
+  <!-- shorthand -->
+  <a :[attributeName]="url"> ... </a>
+  <a v-on:[eventName]="doSomething"> ... </a>
+
+  <!-- shorthand -->
+  <a @[eventName]="doSomething"> ... </a>
 </template>
