@@ -1,9 +1,10 @@
 <script setup>
-  import TemplateSyntax from './components/essentials/TemplateSyntax.vue'
+import DeclaringReactiveState from './components/essentials/2-ReactivityFundamentals/1-DeclaringReactiveState/DeclaringReactiveState.vue';
+
 </script>
 
 <template>
-  <TemplateSyntax></TemplateSyntax>
+  <DeclaringReactiveState></DeclaringReactiveState>
 </template>
 
 <style scoped>
