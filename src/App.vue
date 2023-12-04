@@ -1,10 +1,10 @@
 <script setup>
-import DeclaringReactiveState from './components/essentials/2-ReactivityFundamentals/1-DeclaringReactiveState/DeclaringReactiveState.vue';
+import ReactiveProxyVSOriginalVue from './components/essentials/2-ReactivityFundamentals/2-ReactiveProxyVSOriginal/ReactiveProxyVSOriginal.vue'
 
 </script>
 
 <template>
-  <DeclaringReactiveState></DeclaringReactiveState>
+  <ReactiveProxyVSOriginalVue></ReactiveProxyVSOriginalVue>
 </template>
 
 <style scoped>
