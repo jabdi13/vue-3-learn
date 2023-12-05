@@ -1,10 +1,10 @@
 <script setup>
-import ReactiveProxyVSOriginalVue from './components/essentials/2-ReactivityFundamentals/2-ReactiveProxyVSOriginal/ReactiveProxyVSOriginal.vue'
+import DeclaringMethods from './components/essentials/2-ReactivityFundamentals/3-DeclaringMethods/DeclaringMethods.vue'
 
 </script>
 
 <template>
-  <ReactiveProxyVSOriginalVue></ReactiveProxyVSOriginalVue>
+  <DeclaringMethods></DeclaringMethods>
 </template>
 
 <style scoped>
