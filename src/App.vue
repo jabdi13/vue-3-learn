@@ -1,9 +1,9 @@
 <script setup>
-import Unity1BasicExample from './components/essentials/3-ComputedProperties/composition-api/Unity1-BasicExample.vue';
+import Unity1BindingHTMLClasses from './components/essentials/4-ClassAndStyle/Unity1-BindingHTMLClasses.vue';
 </script>
 
 <template>
-  <Unity1BasicExample></Unity1BasicExample>
+  <Unity1BindingHTMLClasses class="foo"></Unity1BindingHTMLClasses>
 </template>
 
 <style scoped>
