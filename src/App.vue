@@ -1,9 +1,9 @@
 <script setup>
-import Unity4ReactiveAPI from './components/essentials/2-ReactivityFundamentals/composition-api/Unity4-ReactiveAPI.vue';
+import Unity1BasicExample from './components/essentials/3-ComputedProperties/composition-api/Unity1-BasicExample.vue';
 </script>
 
 <template>
-  <Unity4ReactiveAPI></Unity4ReactiveAPI>
+  <Unity1BasicExample></Unity1BasicExample>
 </template>
 
 <style scoped>
