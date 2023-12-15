@@ -17,4 +17,6 @@ import { ref } from 'vue';
   <div v-else>
     Not A/B/C
   </div>
+
+  <h1 v-show="showLetter === 'A'">Hello!</h1>
 </template>
