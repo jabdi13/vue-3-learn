@@ -1,9 +1,9 @@
 <script setup>
-import Unity1BindingHTMLClasses from './components/essentials/4-ClassAndStyle/Unity1-BindingHTMLClasses.vue';
+import Unity1VIf from './components/essentials/5-ConditionalRendering/Unity1-VIf.vue';
 </script>
 
 <template>
-  <Unity1BindingHTMLClasses class="foo"></Unity1BindingHTMLClasses>
+  <Unity1VIf></Unity1VIf>
 </template>
 
 <style scoped>
