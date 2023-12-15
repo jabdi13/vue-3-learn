@@ -1,10 +1,9 @@
 <script setup>
-import Unity1DeclaringReactiveState from './components/essentials/2-ReactivityFundamentals/composition-api/Unity1-DeclaringReactiveState.vue';
-
+  import Unity3DOMUpdateTiming from './components/essentials/2-ReactivityFundamentals/composition-api/Unity3-DOMUpdateTiming.vue';
 </script>
 
 <template>
-  <Unity1DeclaringReactiveState></Unity1DeclaringReactiveState>
+  <Unity3DOMUpdateTiming></Unity3DOMUpdateTiming>
 </template>
 
 <style scoped>
