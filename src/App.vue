@@ -1,9 +1,9 @@
 <script setup>
-  import Unity3DOMUpdateTiming from './components/essentials/2-ReactivityFundamentals/composition-api/Unity3-DOMUpdateTiming.vue';
+import Unity4ReactiveAPI from './components/essentials/2-ReactivityFundamentals/composition-api/Unity4-ReactiveAPI.vue';
 </script>
 
 <template>
-  <Unity3DOMUpdateTiming></Unity3DOMUpdateTiming>
+  <Unity4ReactiveAPI></Unity4ReactiveAPI>
 </template>
 
 <style scoped>
