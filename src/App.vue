@@ -1,9 +1,9 @@
 <script setup>
-import Unity3VForWithRange from './components/essentials/6-ListRendering/Unity3-VForWithRange.vue';
+import Unity1AccessingEventArgument from './components/essentials/7-EventHandlers/Unity1-AccessingEventArgument.vue';
 </script>
 
 <template>
-  <Unity3VForWithRange></Unity3VForWithRange>
+  <Unity1AccessingEventArgument></Unity1AccessingEventArgument>
 </template>
 
 <style scoped>
