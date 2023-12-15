@@ -1,9 +1,9 @@
 <script setup>
-import Unity1VIf from './components/essentials/5-ConditionalRendering/Unity1-VIf.vue';
+import Unity1VFor from './components/essentials/6-ListRendering/Unity1-VFor.vue';
 </script>
 
 <template>
-  <Unity1VIf></Unity1VIf>
+  <Unity1VFor></Unity1VFor>
 </template>
 
 <style scoped>
