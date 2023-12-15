@@ -1,10 +1,10 @@
 <script setup>
-import DeclaringMethods from './components/essentials/2-ReactivityFundamentals/3-DeclaringMethods/DeclaringMethods.vue'
+import Unity1DeclaringReactiveState from './components/essentials/2-ReactivityFundamentals/composition-api/Unity1-DeclaringReactiveState.vue';
 
 </script>
 
 <template>
-  <DeclaringMethods></DeclaringMethods>
+  <Unity1DeclaringReactiveState></Unity1DeclaringReactiveState>
 </template>
 
 <style scoped>
