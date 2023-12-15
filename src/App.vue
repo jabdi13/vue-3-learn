@@ -1,9 +1,9 @@
 <script setup>
-import Unity2VForWithObject from './components/essentials/6-ListRendering/Unity2-VForWithObject.vue';
+import Unity3VForWithRange from './components/essentials/6-ListRendering/Unity3-VForWithRange.vue';
 </script>
 
 <template>
-  <Unity2VForWithObject></Unity2VForWithObject>
+  <Unity3VForWithRange></Unity3VForWithRange>
 </template>
 
 <style scoped>
