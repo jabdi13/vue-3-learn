@@ -1,9 +1,9 @@
 <script setup>
-import Unity1AccessingEventArgument from './components/essentials/7-EventHandlers/Unity1-AccessingEventArgument.vue';
+import Unity1BasicUsage from './components/essentials/8-FormInputBindings/Unity1-BasicUsage.vue';
 </script>
 
 <template>
-  <Unity1AccessingEventArgument></Unity1AccessingEventArgument>
+  <Unity1BasicUsage></Unity1BasicUsage>
 </template>
 
 <style scoped>
