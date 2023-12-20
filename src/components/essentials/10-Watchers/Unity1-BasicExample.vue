@@ -20,6 +20,27 @@ watch(question, async (newQuestion, oldQuestion) => {
     }
   }
 })
+
+const x = ref(0)
+const y = ref(0)
+
+// single ref
+watch(x, (newX) => {
+  console.log(`x is ${newX}`)
+})
+
+// getter
+watch(
+  () => x.value + y.value,
+  (sum) => {
+    console.log(`sum of x + y is: ${sum}`)
+  }
+)
+
+// array of multiple sources
+watch([x, () => y.value], ([newX, newY]) => {
+  console.log(`x is ${newX} and y is ${newY}`)
+})
 </script>
 
 <template>
