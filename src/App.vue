@@ -1,9 +1,9 @@
 <script setup>
-import Unity1RegisteringLifecycleHooks from './components/essentials/9-LifecycleHooks/Unity1-RegisteringLifecycleHooks.vue';
+import Unity1BasicExample from './components/essentials/10-Watchers/Unity1-BasicExample';
 </script>
 
 <template>
-  <Unity1RegisteringLifecycleHooks></Unity1RegisteringLifecycleHooks>
+  <Unity1BasicExample></Unity1BasicExample>
 </template>
 
 <style scoped>
