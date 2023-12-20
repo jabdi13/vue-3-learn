@@ -1,9 +1,9 @@
 <script setup>
-import Unity1BasicUsage from './components/essentials/8-FormInputBindings/Unity1-BasicUsage.vue';
+import Unity1RegisteringLifecycleHooks from './components/essentials/9-LifecycleHooks/Unity1-RegisteringLifecycleHooks.vue';
 </script>
 
 <template>
-  <Unity1BasicUsage></Unity1BasicUsage>
+  <Unity1RegisteringLifecycleHooks></Unity1RegisteringLifecycleHooks>
 </template>
 
 <style scoped>
